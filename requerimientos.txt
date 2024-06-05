@@ -1,0 +1,10 @@
+Problema 1 (20 pts)
+
+Hacer un formulario que pida al usuario peso (en kilogramos) y altura (en metros)
+
+
+
+DATOS:
+    * PESO : input;
+    * ALTURA : input;
+    * IMC : output;
