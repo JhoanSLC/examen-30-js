@@ -12,6 +12,10 @@ export class imageGallery extends LitElement {
     }
 
     static styles = css`
+
+        .gallery-container {
+            display: none;
+        }
         .gallery { 
             display: flex; 
             flex-wrap: wrap; 
