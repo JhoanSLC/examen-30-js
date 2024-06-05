@@ -34,31 +34,31 @@ document.addEventListener('DOMContentLoaded', () => {
         // Peso normal
         if (resultadoCalculo <= 24.9 && resultadoCalculo >= 18.5) {
             categoria.textContent = "NORMAL";
-            imcImagen.src = "public/peso-bajo.png"
+            imcImagen.src = "../../../public/peso-bajo.png"
         }
 
         // Sobrepeso
         if (resultadoCalculo <= 29.9 && resultadoCalculo >= 25) {
             categoria.textContent = "SOBREPESO";
-            imcImagen.src = "public/peso-normal.png"
+            imcImagen.src = "../../../public/peso-normal.png"
         }
 
         //Obesidad 1 
         if (resultadoCalculo <= 34.9 && resultadoCalculo >= 30) {
             categoria.textContent = "OBESIDAD 1";
-            imcImagen.src = "public/sobrepeso.png"
+            imcImagen.src = "../../../public/sobrepeso.png"
         }
 
         //Obesidad 2
         if (resultadoCalculo <= 39.9 && resultadoCalculo >= 35) {
             categoria.textContent = "OBESIDAD 2";
-            imcImagen.src = "public/obesidad.png"
+            imcImagen.src = "../../../public/obesidad.png"
         }
 
         // Obesidad 3 
         if (resultadoCalculo >= 40) {
             categoria.textContent = "OBESIDAD 3";
-            imcImagen.src = "public/obesidad-extrema.png"
+            imcImagen.src = "../../../public/obesidad-extrema.png"
         }
 
         cardContainer.style.display = "flex";
